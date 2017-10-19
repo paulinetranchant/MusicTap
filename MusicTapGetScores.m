@@ -33,7 +33,7 @@ for stim = 1: nb_stim
     [meanVector(stim),pRayleigh(stim),meanAsync(stim),level(stim)] = TapStats(taps,beats(stim,:),taplevel_stim);
 end
     
-TapResults = [meanVector,pRayleigh,meanAsync,level,double_tap];
+Scores = [meanVector,pRayleigh,meanAsync,level,double_tap];
 end
 
 function [taps_allstim] = GetTap(file)
