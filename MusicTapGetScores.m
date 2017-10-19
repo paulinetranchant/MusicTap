@@ -1,4 +1,4 @@
-function TapResults = MusicTapGetResults(data,taplevel)
+function Scores = MusicTapGetScores(data,taplevel)
 %TapResults gives a matrix with each line corresponding to a stimulus
 %Outcomes: mean vector in first column, p value for the Rayleigh test
 %in second column, mean asynchrony in third column, chosen beat level in fourth
