@@ -87,3 +87,4 @@ else
     %Mean Asynchrony:
     meanAsync = mean(beats_tap-taps');
 end
+end
