@@ -86,4 +86,9 @@ else
     [p_Rayleigh, ~] = circ_rtest(Vectors);
     %Mean Asynchrony:
     meanAsync = mean(beats_tap-taps');
+<<<<<<< HEAD
 end
+=======
+end
+end
+>>>>>>> 02f34877bacbc7187e97ace372171a3381b73a1d

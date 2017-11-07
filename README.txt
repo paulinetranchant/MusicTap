@@ -1,4 +1,6 @@
+
 This is code to analyze tapping data for synchronization to music.
+
 
 Ten musical stimuli (available upon request) are presented to a participant. The task consists in synchronizing finger taps with the musical beat.
 
@@ -18,7 +20,9 @@ mean vector         p-value for      mean asynchrony   beat level      how many 
 Stimulus are presented in a random order to a participant during the experiment and MusicTapGetResults.m reorganizes the data so that the results correspond to stimuli in alphabetical order (see SongList_BeatsTracker.xlsx)          
 
 
-Here is the structure of data files (.mat format): matrix of five columns
+
+Here is the structure of data files (.mat format): matrix of five columns data files are structured as follows:
+
 
 Column 1                Column 2	   Column 3       Column 4        Column 5
 
@@ -26,4 +30,7 @@ stimulus order		trial number       1 = tap        inter-tap-      time of tap
 (no important)				   0 = no tap	  interval        in audio file
 									  (in ms)
 
+
 Note that we do not keep data for the first and last seconds of the stimuli; only the taps corresponding to the 24 beats in the stimulus are included in the analysis.
+Note that we do not keep data for the first and last seconds of the stimuli; only the taps corresponding to the 24 beats in the stimulus are included in the analysis.
+
