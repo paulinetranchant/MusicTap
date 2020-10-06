@@ -1,4 +1,4 @@
-This is code to analyze tapping to music data
+This code was written by Pauline Tranchant for the analysis of tapping data (synchronization to music). 
 Ten musical stimuli (available upon request) are presented to a participant. The task consists in synchronizing finger taps with the musical beat.
 
 Our equipment setting at BRAMS (International Laboratory for Brain, Music and Sound Research) is the following:
